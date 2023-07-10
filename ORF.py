@@ -108,6 +108,7 @@ comp = str.maketrans("ATGC", "TACG")
 complement = result.translate(comp)
 count=1
 print(driver_main(count, complement))
+print("This is a new try commit")
 end_time = time.perf_counter()
 execution_time = end_time - start_time
 print(f"Execution time: {execution_time:.5f} seconds")
