@@ -11,7 +11,7 @@ codons = {
 }
 ### To put your own FASTA file into the prog, de-comment the following code and comment the 24th and 25th line ###
 
-file = open('seven.fasta','r')
+file = open('seve.fasta','r')
 newlist=[]
 seq=''
 listtwo=[]
