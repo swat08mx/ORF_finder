@@ -1,5 +1,3 @@
-import time
-start_time = time.perf_counter()
 codons = {
     'GCT': 'Ala','GCC': 'Ala','GCA': 'Ala','GCG': 'Ala','CGT': 'Arg','CGC': 'Arg','CGA': 'Arg','CGG': 'Arg','AGA': 'Arg','AGG': 'Arg',
     'AAT': 'Asn','AAC': 'Asn','GAT': 'Asp','GAC': 'Asp','TGT': 'Cys','TGC': 'Cys','CAA': 'Gln','CAG': 'Gln','GAA': 'Glu','GAG': 'Glu',
@@ -131,6 +129,3 @@ comp = str.maketrans("ATGC", "TACG")
 complement = result.translate(comp)
 count=1
 print(driver_main(count, complement, number))
-end_time = time.perf_counter()
-execution_time = end_time - start_time
-print(f"Execution time: {execution_time:.5f} seconds")
